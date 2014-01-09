@@ -19,3 +19,4 @@ $query
 $db->setQuery($query);
 $result = $db->loadResult();
 ```
+Read more at http://docs.joomla.org/Selecting_data_using_JDatabase
