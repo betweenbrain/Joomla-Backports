@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5"
+         type="plugin"
+         group="system"
+         method="upgrade">
+	<name>System - Joomla Backports Library</name>
+	<author>Matt Thomas</author>
+	<creationDate>January 9th, 2014</creationDate>
+	<copyright>(C) 2014 Matt Thomas. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>matt@betweenbrain.com</authorEmail>
+	<authorUrl>www.betweenbrain.com</authorUrl>
+	<version>1.0</version>
+	<description></description>
+
+	<files>
+		<filename plugin="jbackports">jbackports.php</filename>
+		<folder>jbackports</folder>
+	</files>
+
+</install>
