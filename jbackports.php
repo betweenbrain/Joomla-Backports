@@ -16,5 +16,7 @@ class PlgSystemJbackports extends JPlugin
 		parent::__construct($subject, $config);
 
 		define('JBACKPORTS', dirname(__FILE__) . '/jbackports');
+
+		JLoader::register('JDatabaseQuery', JBACKPORTS . '/libraries/joomla/database/query.php', true);
 	}
 }
